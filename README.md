@@ -53,7 +53,7 @@ Ejemplo:
 
 ```env
 PORT=3001
-MONGODB_URI=mongodb+srv://USUARIO:PASSWORD@TU_CLUSTER.mongodb.net/NOMBRE_DB?retryWrites=true&w=majority
+MONGODB_URI=URI
 JWT_SECRET=tu_clave_secreta
 JWT_EXPIRES_IN=1d
 ```
