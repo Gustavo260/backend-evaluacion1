@@ -67,36 +67,36 @@ Eso significa que los endpoints reales comienzan con:
 
 **Users**:
 GET
-* `/api/auth/login`
-* `/api/auth/users/{id}` (solo admin)
-* `/api/auth/users`      (solo admin)
+* `http://localhost:3001/api/auth/login`
+* `http://localhost:3001/api/auth/users/{id}` (solo admin)
+* `http://localhost:3001/api/auth/users`      (solo admin)
 
 POST
-* `/api/auth/register` (solo admin)
+* `http://localhost:3001/api/auth/register` (solo admin)
 
 
 **Consoles**:
 GET
-* `/api/consoles/`
-* `/api/consoles/{id}`
+* `http://localhost:3001/api/consoles/`
+* `http://localhost:3001/api/consoles/{id}`
 
 POST
-* `/api/consoles/` (solo admin)
+* `http://localhost:3001/api/consoles/` (solo admin)
 
 PUT / PATCH / DELETE
-* `/api/consoles/{id}` (solo admin)
+* `http://localhost:3001/api/consoles/{id}` (solo admin)
 
 
 **Games**:
 GET
-* `/api/games/`
-* `/api/games/{id}`
+* `http://localhost:3001/api/games/`
+* `http://localhost:3001/api/games/{id}`
 
 POST
-* `/api/games/`
+* `http://localhost:3001/api/games/`
 
 PUT / PATCH / DELETE
-* `/api/games/{id}` (solo con los del mismo user)
+* `http://localhost:3001/api/games/{id}` (solo con los del mismo user)
 
 ---
 
